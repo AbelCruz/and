@@ -86,6 +86,7 @@
     margin-bottom: 0; 
 
   }
+
  
   .navbar-link {
     text-transform: uppercase;
@@ -111,7 +112,20 @@
     #slider img:nth-child(1){
       display: block;
     }
-
+#no-top{
+  display: none;
+}
+@media (max-width: 360px) {
+ 
+  .navbar-link {
+ 
+    margin-right: 5px;
+    
+  }
+  #no-top{
+    display: none;
+  }
+}
 
 /* Bigger than 550 */
 @media (min-width: 550px) {
